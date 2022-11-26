@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/lutfailham96/node-cli-example/issues"
   },
-  "homepage": "https://github.com/lutfailham96/node-cli-example#readme"
+  "homepage": "https://github.com/lutfailham96/node-cli-example#readme",
+  "dependencies": {
+    "yargs": "^17.6.2"
+  }
 }
