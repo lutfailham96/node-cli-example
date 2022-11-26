@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const yargs = require('yargs');
-const { proceedFile, isFileExist, } = require('../src/utils/common');
+const { proceedFile, isFileExist, inputType } = require('../src/utils/common');
 
 const argv = yargs
   .option('type', {
