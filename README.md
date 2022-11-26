@@ -1,7 +1,7 @@
 # node-cli-example
 [![CI](https://github.com/lutfailham96/node-cli-example/actions/workflows/ci.yml/badge.svg)](https://github.com/lutfailham96/node-cli-example/actions/workflows/ci.yml)
 
-This project is just example of parsing `nginx` access log using CLI on Node.js
+This project is just example of parsing `nginx` access log to JSON or vice versa using CLI on Node.js
 
 ## Access Log Format
 ```
