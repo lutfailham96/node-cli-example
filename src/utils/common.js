@@ -1,10 +1,18 @@
 const fs = require('fs');
 
+/**
+ * @type {{json: string, text: string}}
+ */
 const inputType = {
   json: "json",
   text: "text",
 }
 
+/**
+ * Check file existence
+ * @param file {string}
+ * @return {boolean}
+ */
 const isFileExist = (file) => {
   try {
     return fs.existsSync(file)
@@ -14,6 +22,12 @@ const isFileExist = (file) => {
   }
 }
 
+/**
+ * Proceed input file
+ * @param fileType {string}
+ * @param inFile {string}
+ * @param outFile {string}
+ */
 const proceedFile = (fileType, inFile, outFile) => {
   // proceed json file
   if (fileType === inputType.json) {
