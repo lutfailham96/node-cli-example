@@ -27,7 +27,7 @@ jobs:
         run: npm install -g npm@latest yarn@latest
       - name: Install dependencies
         run: yarn
-      - name: Get sample files
+      - name: Run commands
         run: |-
           ./bin/cli.js samples/access.log -t json -o /tmp/access.json \
             && ./bin/cli.js /tmp/access.json -t text -o /tmp/access.txt
